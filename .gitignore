@@ -1,4 +1,5 @@
 windows/.vagrant
 windows/data
 *.swp
-env
+torrentmonitor-db
+torrentmonitor-torrents
