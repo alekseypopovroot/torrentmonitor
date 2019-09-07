@@ -8,9 +8,9 @@ MAINTAINER Siarhei Navatski <navatski@gmail.com>, Andrey Aleksandrov <alex.demio
 # Environment variables:
 #------------------------------------------------------------------------------
 ENV VERSION="1.7.9" \
-    RELEASE_DATE="12.08.2018" \
-    CRON_TIMEOUT="0 * * * *" \
-    PHP_TIMEZONE="UTC" \
+    RELEASE_DATE="12.08.2019" \
+    CRON_TIMEOUT="*/20 * * * *" \
+    PHP_TIMEZONE="Europe/Kiev" \
     PHP_MEMORY_LIMIT="512M" \
     LD_PRELOAD="/usr/local/lib/preloadable_libiconv.so"
 
